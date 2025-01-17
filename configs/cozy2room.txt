@@ -1,9 +1,9 @@
 expname = cozy2room
 basedir = ./logs
-datadir = ./data/cozy2room
+datadir = /home/duo/datasets/NeRF/input_data/cozy2room
 dataset_type = llff
-maskdir = ./data/cozy2room/mask_25.npy
-measdir = ./data/cozy2room/meas_25.npy
+maskdir = /home/duo/datasets/NeRF/input_data/cozy2room/mask_25.npy
+measdir = /home/duo/datasets/NeRF/input_data/cozy2room/meas_25.npy
 f = 162.09754231
 
 factor = 1
@@ -24,7 +24,7 @@ N_importance = 64
 use_viewdirs = True
 raw_noise_std = 1.0
 
-load_weights = False
+load_weights = True
 weight_iter = 200000
 
 i_img = 25000

@@ -7,8 +7,8 @@ import os, sys, time
 from skimage.metrics import structural_similarity as ssim
 from skimage.metrics import peak_signal_noise_ratio as psnr
 
-path_gt = '' # Ground truth image path
-path_clear = '' # Generated image path
+path_gt = '/home/duo/datasets/NeRF/gt/airplants' # Ground truth image path
+path_clear = '/home/duo/ASources/SCINeRF/logs/airplants/img_test_200000' # Generated image path
 
 imgfiles = [os.path.join(path_clear, f) for f in sorted(os.listdir(path_clear)) if
             f.endswith('JPG') or f.endswith('jpg') or f.endswith('png') or f.endswith('bmp')]
